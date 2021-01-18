@@ -1,0 +1,132 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  font-family: "Whitney";
+}
+
+.inner {
+  width: 60.9%;
+  margin-left: 19.55%;
+  margin-right: 19.55%;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 350;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, right top, from(#2d1686), to(#4e33b5));
+  background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+}
+
+.header .inner {
+  padding-top: 33px;
+  padding-right: 13px;
+  padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo p {
+  color: #f25b24;
+  font-size: 27px;
+  margin-left: 15px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.header__nav .clients {
+  margin-right: 100px;
+}
+
+.header__nav .log-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav .log-in svg {
+  margin-right: 12px;
+}
+
+.promo {
+  background: -webkit-gradient(linear, left top, right top, from(#2d1686), to(#4e33b5));
+  background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+}
+
+.promo .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: -10px;
+  position: relative;
+}
+
+.promo__content {
+  color: #ffffff;
+  margin-right: -130px;
+  margin-top: 135px;
+}
+
+.promo__content .title {
+  margin-bottom: 30px;
+}
+
+.promo__content .subtitle {
+  margin-bottom: 60px;
+}
+
+.promo__content button {
+  margin-bottom: 140px;
+  border: 0;
+  width: 222px;
+  height: 50px;
+  background: #f25b24;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.promo__img {
+  margin-top: 90px;
+}
+
+.promo__img svg {
+  width: calc(925px / 100 * 59);
+}

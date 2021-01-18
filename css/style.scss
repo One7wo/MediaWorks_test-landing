@@ -1,0 +1,122 @@
+//  ===Mixins===
+@mixin font-segoe {
+    font-family: "Segoe UI";
+}
+
+@mixin font-whitney {
+    font-family: "Whitney";
+}
+
+@mixin font-whitney-book {
+    font-family: "Whitney Book";
+}
+//  ===/Mixins===
+
+// ===COMMON===
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    @include font-whitney;
+}
+.inner {
+    width: 60.9%;
+    margin-left: 19.55%;
+    margin-right: 19.55%;
+}
+
+.title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 350;
+}
+// ===/COMMON===
+
+// ===Hader===
+.header {
+    background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+    .inner {
+        padding-top: 33px;
+        padding-right: 13px;
+        padding-left: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: flex;
+        p {
+            color: #f25b24;
+            font-size: 27px;
+            margin-left: 15px;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        .clients {
+            margin-right: 100px;
+        }
+        .log-in {
+            display: flex;
+            svg {
+                margin-right: 12px;
+            }
+        }
+    }
+}
+// ===/Hader===
+
+// ===Promo===
+.promo {
+    background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        padding-right: -10px;
+        position: relative;
+    }
+    &__content {
+        color: #ffffff;
+        margin-right: -130px;
+        margin-top: 135px;
+        .title {
+            margin-bottom: 30px;
+        }
+        .subtitle {
+            margin-bottom: 60px;
+        }
+        button {
+            margin-bottom: 140px;
+            border: 0;
+            width: 222px;
+            height: 50px;
+            background: #f25b24;
+            color: #ffffff;
+            border-radius: 4px;
+
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+    &__img {
+        margin-top: 90px;
+        svg {
+            width: calc(925px / 100 * 59);
+        }
+    }
+}
+// ===/Promo===
