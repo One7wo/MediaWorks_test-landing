@@ -26,3 +26,12 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url("SegoeUI-SemiBold.eot");
+	src: local("Segoe UI SemiBold"), local("SegoeUI-SemiBold"), url("SegoeUI-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("SegoeUI-SemiBold.woff") format("woff"), url("SegoeUI-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
